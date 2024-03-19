@@ -1,7 +1,7 @@
 {
   "name": "magic-link-popup-react",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "main": "./dist/magic-link-popup-react.cjs",
   "module": "./dist/magic-link-popup-react.mjs",
   "exports": {
