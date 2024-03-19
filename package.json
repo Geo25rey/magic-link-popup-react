@@ -1,13 +1,13 @@
 {
-  "name": "name-of-package",
+  "name": "magic-link-popup-react",
   "private": true,
   "version": "0.0.0",
-  "main": "./dist/name-of-package.cjs",
-  "module": "./dist/name-of-package.mjs",
+  "main": "./dist/magic-link-popup-react.cjs",
+  "module": "./dist/magic-link-popup-react.mjs",
   "exports": {
     ".": {
-      "require": "./dist/name-of-package.cjs",
-      "import": "./dist/name-of-package.mjs"
+      "require": "./dist/magic-link-popup-react.cjs",
+      "import": "./dist/magic-link-popup-react.mjs"
     },
     "./dist/": {
       "import": "./dist/",

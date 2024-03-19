@@ -1,4 +1,4 @@
-# name-of-package
+# magic-link-popup-react
 
 Add a description
 
