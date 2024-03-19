@@ -59,5 +59,13 @@
     "typescript": "^5.3.3",
     "vite": "^5.0.12",
     "vitest": "^1.2.1"
+  },
+  "dependencies": {
+    "magic-link-popup": "^0.0.5",
+    "zustand": "^4.5.2"
+  },
+  "peerDependencies": {
+    "magic-sdk": "^27.0.0",
+    "react": "^16.8.0 || ^17.0.0 || ^18.0.0"
   }
 }
