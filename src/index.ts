@@ -6,6 +6,7 @@ import {
   init,
   login,
   logout,
+  getMagic,
 } from "magic-link-popup";
 
 type State =
@@ -30,9 +31,18 @@ export const MagicLinkPopupActions = {
    * @param loadingRoute a route that indicates to the user that the Magic Link Popup is loading the login state.
    * @param initOptions options allowing you to customize the Magic Link Popup look and feel.
    */
-  init(magicApiKey: string, loadingRoute: string, initOptions?: InitOptions) {
+  async init(
+    magicApiKey: string,
+    loadingRoute: string,
+    initOptions?: InitOptions
+  ) {
     init(magicApiKey, loadingRoute, initOptions);
-    useMagicLinkPopup.setState(state => ({ ...state, initialized: true }));
+    const loggedIn = await getMagic().user.isLoggedIn();
+    useMagicLinkPopup.setState(state => ({
+      ...state,
+      initialized: true,
+      loggedIn,
+    }));
   },
   /**
    * Initiates the Magic SDK login flow.
