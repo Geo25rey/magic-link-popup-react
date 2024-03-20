@@ -610,10 +610,10 @@
   resolved "https://registry.yarnpkg.com/@types/minimist/-/minimist-1.2.5.tgz#ec10755e871497bcd83efe927e43ec46e8c0747e"
   integrity sha512-hov8bUuiLiyFPGyFPE1lwWhmzYbirOXQNNo40+y3zow8aFVTeyn3VWL0VFFfdNddA8S4Vf0Tc062rzyNr7Paag==
 
-"@types/node@*", "@types/node@^20.11.5":
-  version "20.11.29"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.11.29.tgz#431253cede34f392d6aaf7acad427b9c23aa60f6"
-  integrity sha512-P99thMkD/1YkCvAtOd6/zGedKNA0p2fj4ZpjCzcNiSCBWgm3cNRTBfa/qjFnsKkkojxu4vVLtWpesnZ9+ap+gA==
+"@types/node@*":
+  version "20.11.30"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.11.30.tgz#9c33467fc23167a347e73834f788f4b9f399d66f"
+  integrity sha512-dHM6ZxwlmuZaRmUPfv1p+KrdD1Dci04FbdEm/9wEMouFqxYoFl5aMkt0VMAUtYRQDyYvD41WJLukhq/ha3YuTw==
   dependencies:
     undici-types "~5.26.4"
 
@@ -621,6 +621,13 @@
   version "12.20.55"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-12.20.55.tgz#c329cbd434c42164f846b909bd6f85b5537f6240"
   integrity sha512-J8xLz7q2OFulZ2cyGTLE1TbbZcjpno7FaN6zdJNrgAdrJ+DZzh/uFR6YrTb4C+nXakvud8Q4+rbhoIWlYQbUFQ==
+
+"@types/node@^20.11.5":
+  version "20.11.29"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.11.29.tgz#431253cede34f392d6aaf7acad427b9c23aa60f6"
+  integrity sha512-P99thMkD/1YkCvAtOd6/zGedKNA0p2fj4ZpjCzcNiSCBWgm3cNRTBfa/qjFnsKkkojxu4vVLtWpesnZ9+ap+gA==
+  dependencies:
+    undici-types "~5.26.4"
 
 "@types/normalize-package-data@^2.4.0":
   version "2.4.4"
@@ -2940,10 +2947,10 @@ lru-cache@^6.0.0:
   resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-10.2.0.tgz#0bd445ca57363465900f4d1f9bd8db343a4d95c3"
   integrity sha512-2bIM8x+VAf6JT4bKAljS1qUWgMsqZRPGJS6FSahIMPVvctcNhyVp7AJu7quxOW9jwkryBReKZY5tY5JYv2n/7Q==
 
-magic-link-popup@^0.0.6:
-  version "0.0.6"
-  resolved "https://registry.yarnpkg.com/magic-link-popup/-/magic-link-popup-0.0.6.tgz#5a2afa1e9a0fe3e223f3b8ed12782d39acce8ea3"
-  integrity sha512-VDzixsVQd3H1rIfXjBZHaBHyFTTqE+mGH9oQ2vxZv2nu3jam9P02KPsowsSTb0Y9tdjLIfG+gzRdmw6+VTQPww==
+magic-link-popup@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/magic-link-popup/-/magic-link-popup-0.1.0.tgz#e728d52015f902503ad0b5d2f37e2f365e510f49"
+  integrity sha512-7FUyGC00L8QB+GlDr9LmqrMY+mKow0VhiUMCk7H9WEL1p7Vs7LeWOmGhzrNDYxKxWwYdtscer0P/qVWX09j8pw==
   dependencies:
     "@magic-ext/oauth" "^21.0.0"
     magic-sdk "^27.0.0"
