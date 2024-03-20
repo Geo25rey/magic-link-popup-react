@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.4](https://github.com/Geo25rey/magic-link-popup-react/compare/v0.0.3...v0.0.4) (2024-03-20)
+
+
+### Features
+
+* ssr support ([78fdf5e](https://github.com/Geo25rey/magic-link-popup-react/commit/78fdf5e2e15099879d3b3cd863082521c4eb43e0))
+
 ### [0.0.3](https://github.com/Geo25rey/magic-link-popup-react/compare/v0.0.2...v0.0.3) (2024-03-19)
 
 
