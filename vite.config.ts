@@ -26,6 +26,9 @@ const formats = Object.keys(fileName) as Array<keyof typeof fileName>;
 module.exports = defineConfig({
   base: "./",
   build: {
+    rollupOptions: {
+      external: ["react", "magic-sdk", "magic-link-popup"],
+    },
     outDir: "./dist",
     lib: {
       entry: path.resolve(__dirname, "src/index.tsx"),

@@ -20,6 +20,9 @@ type InitProps = State;
 
 type RootStore = ReturnType<typeof initStoreForGSSP>;
 
+/**
+ * https://github.com/vercel/next.js/discussions/45763#discussioncomment-4934801
+ */
 const RootStoreContext = createContext<RootStore | null>(null);
 
 /**
