@@ -1,6 +1,6 @@
 {
   "name": "magic-link-popup-react",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "main": "./dist/magic-link-popup-react.cjs",
   "module": "./dist/magic-link-popup-react.mjs",
   "exports": {
