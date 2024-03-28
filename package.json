@@ -1,6 +1,6 @@
 {
   "name": "magic-link-popup-react",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "./dist/magic-link-popup-react.cjs",
   "module": "./dist/magic-link-popup-react.mjs",
   "exports": {
@@ -26,7 +26,7 @@
     "format": "yarn format:scripts && yarn format:styles",
     "prepare": "husky install && husky set .husky/pre-commit 'yarn lint-staged' && git add .husky/pre-commit",
     "uninstall-husky": "yarn remove husky --no-save && git config --unset core.hooksPath && yarn rimraf .husky",
-    "release": "standard-version && git push --follow-tags origin master && yarn publish && git reset CHANGELOG.md"
+    "release": "standard-version && git push --follow-tags origin master && yarn publish && git reset --hard CHANGELOG.md"
   },
   "devDependencies": {
     "@types/jsdom": "^21.1.6",
