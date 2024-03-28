@@ -31,6 +31,7 @@
   "devDependencies": {
     "@types/jsdom": "^21.1.6",
     "@types/node": "^20.11.5",
+    "@types/react": "^18.2.73",
     "@typescript-eslint/eslint-plugin": "^6.19.1",
     "@typescript-eslint/parser": "^6.19.1",
     "@vitest/coverage-v8": "^1.2.1",
@@ -58,10 +59,10 @@
   },
   "dependencies": {
     "magic-link-popup": "^0.1.0",
+    "react": "^16.8.0 || ^17.0.0 || ^18.0.0",
     "zustand": "^4.5.2"
   },
   "peerDependencies": {
-    "magic-sdk": "^27.0.0",
-    "react": "^16.8.0 || ^17.0.0 || ^18.0.0"
+    "magic-sdk": "^27.0.0"
   }
 }

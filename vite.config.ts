@@ -28,7 +28,7 @@ module.exports = defineConfig({
   build: {
     outDir: "./dist",
     lib: {
-      entry: path.resolve(__dirname, "src/index.ts"),
+      entry: path.resolve(__dirname, "src/index.tsx"),
       name: getPackageNameCamelCase(),
       formats,
       fileName: format => fileName[format],
